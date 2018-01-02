@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352B43D11FFB5415003F79A5 /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = 352B43D01FFB5414003F79A5 /* address.json */; };
 		35D6A6EB1FF639F70065B1D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A6EA1FF639F70065B1D3 /* AppDelegate.m */; };
 		35D6A6EE1FF639F70065B1D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A6ED1FF639F70065B1D3 /* ViewController.m */; };
 		35D6A6F11FF639F70065B1D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D6A6EF1FF639F70065B1D3 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		35D6A6F91FF639F70065B1D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A6F81FF639F70065B1D3 /* main.m */; };
 		35D6A7031FF639F80065B1D3 /* DXLAddressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A7021FF639F80065B1D3 /* DXLAddressViewTests.m */; };
 		35D6A70E1FF639F80065B1D3 /* DXLAddressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A70D1FF639F80065B1D3 /* DXLAddressViewUITests.m */; };
+		35D6A71D1FF63A470065B1D3 /* DXLAddressPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A71C1FF63A470065B1D3 /* DXLAddressPickView.m */; };
+		35D6A7201FF63A760065B1D3 /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A71F1FF63A760065B1D3 /* ProvinceModel.m */; };
+		35D6A7241FF63A910065B1D3 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A7231FF63A910065B1D3 /* CityModel.m */; };
+		35D6A7271FF63A9D0065B1D3 /* AreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D6A7261FF63A9D0065B1D3 /* AreaModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		352B43D01FFB5414003F79A5 /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
 		35D6A6E61FF639F70065B1D3 /* DXLAddressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DXLAddressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D6A6E91FF639F70065B1D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35D6A6EA1FF639F70065B1D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,14 @@
 		35D6A7091FF639F80065B1D3 /* DXLAddressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXLAddressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D6A70D1FF639F80065B1D3 /* DXLAddressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXLAddressViewUITests.m; sourceTree = "<group>"; };
 		35D6A70F1FF639F80065B1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D6A71B1FF63A470065B1D3 /* DXLAddressPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXLAddressPickView.h; sourceTree = "<group>"; };
+		35D6A71C1FF63A470065B1D3 /* DXLAddressPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXLAddressPickView.m; sourceTree = "<group>"; };
+		35D6A71E1FF63A760065B1D3 /* ProvinceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
+		35D6A71F1FF63A760065B1D3 /* ProvinceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
+		35D6A7221FF63A910065B1D3 /* CityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		35D6A7231FF63A910065B1D3 /* CityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		35D6A7251FF63A9D0065B1D3 /* AreaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AreaModel.h; sourceTree = "<group>"; };
+		35D6A7261FF63A9D0065B1D3 /* AreaModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,7 @@
 				35D6A6EA1FF639F70065B1D3 /* AppDelegate.m */,
 				35D6A6EC1FF639F70065B1D3 /* ViewController.h */,
 				35D6A6ED1FF639F70065B1D3 /* ViewController.m */,
+				35D6A7211FF63A7B0065B1D3 /* Address */,
 				35D6A6EF1FF639F70065B1D3 /* Main.storyboard */,
 				35D6A6F21FF639F70065B1D3 /* Assets.xcassets */,
 				35D6A6F41FF639F70065B1D3 /* LaunchScreen.storyboard */,
@@ -130,6 +145,22 @@
 				35D6A70F1FF639F80065B1D3 /* Info.plist */,
 			);
 			path = DXLAddressViewUITests;
+			sourceTree = "<group>";
+		};
+		35D6A7211FF63A7B0065B1D3 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				352B43D01FFB5414003F79A5 /* address.json */,
+				35D6A71B1FF63A470065B1D3 /* DXLAddressPickView.h */,
+				35D6A71C1FF63A470065B1D3 /* DXLAddressPickView.m */,
+				35D6A71E1FF63A760065B1D3 /* ProvinceModel.h */,
+				35D6A71F1FF63A760065B1D3 /* ProvinceModel.m */,
+				35D6A7221FF63A910065B1D3 /* CityModel.h */,
+				35D6A7231FF63A910065B1D3 /* CityModel.m */,
+				35D6A7251FF63A9D0065B1D3 /* AreaModel.h */,
+				35D6A7261FF63A9D0065B1D3 /* AreaModel.m */,
+			);
+			path = Address;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +271,7 @@
 			files = (
 				35D6A6F61FF639F70065B1D3 /* LaunchScreen.storyboard in Resources */,
 				35D6A6F31FF639F70065B1D3 /* Assets.xcassets in Resources */,
+				352B43D11FFB5415003F79A5 /* address.json in Resources */,
 				35D6A6F11FF639F70065B1D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,8 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D6A6EE1FF639F70065B1D3 /* ViewController.m in Sources */,
+				35D6A7201FF63A760065B1D3 /* ProvinceModel.m in Sources */,
+				35D6A7271FF63A9D0065B1D3 /* AreaModel.m in Sources */,
 				35D6A6F91FF639F70065B1D3 /* main.m in Sources */,
 				35D6A6EB1FF639F70065B1D3 /* AppDelegate.m in Sources */,
+				35D6A7241FF63A910065B1D3 /* CityModel.m in Sources */,
+				35D6A71D1FF63A470065B1D3 /* DXLAddressPickView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
